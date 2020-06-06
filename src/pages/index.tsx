@@ -12,6 +12,11 @@ const columns = [
     dataIndex: 'name',
     key: 'name',
   },
+  {
+    title: '邮箱',
+    dataIndex: 'email',
+    key: 'email',
+  },
 ];
 const data = [
   {
