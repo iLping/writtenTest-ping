@@ -3,7 +3,12 @@ import styles from './index.less';
 import { Table, Tag, Space } from 'antd';
 const columns = [
   {
-    title: 'Name',
+    title: 'id',
+    dataIndex: 'name',
+    key: 'name',
+  },
+  {
+    title: '用户名',
     dataIndex: 'name',
     key: 'name',
   },
